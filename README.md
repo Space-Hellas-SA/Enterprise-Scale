@@ -11,11 +11,7 @@
 * [Create Landing Zones](./docs/EnterpriseScale-Deploy-landing-zones.md)
 * [Deploy workloads into Landing Zones](./docs/EnterpriseScale-Deploy-workloads.md)
 * [Getting started with Infrastructure-as-Code](https://github.com/Azure/AzOps-Accelerator/wiki)
-* [Known Issues](./docs/EnterpriseScale-Known-Issues.md)
-* [How Do I Contribute?](./docs/EnterpriseScale-Contribution.md)
 * [FAQ](./docs/EnterpriseScale-FAQ.md)
-* [Roadmap](./docs/EnterpriseScale-Roadmap.md)
-* [Microsoft Support Policy](./SUPPORT.md)
 
 ---
 
