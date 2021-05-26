@@ -10,12 +10,9 @@ The Space-Enterprise-Scale architecture is modular by design and allow organizat
 
 This reference implementation is ideal for customers who want to start with Landing Zones for their workloads in Azure, where hybrid connectivity to their on-premises datacenter is not required from the start.
 
-Please refer to [Enterprise-Scale Landing Zones User Guide](https://github.com/Azure/Enterprise-Scale/wiki/Deploying-Enterprise-Scale) for detailed information on prerequisites and deployment steps.
-
 ## How to evolve and add support for hybrid connectivity later
 
-If the business requirements changes over time, such as migration of on-prem applications to Azure that requires hybrid connectivity, the architecture allows you to expand and implement networking without refactoring Azure Design with no disruption to what is already in Azure. The Enterprise-Scale architecture allows to create the Connectivity Subscription and place it into the platform Management Group and assign Azure Policies or/and deploy the target networking topology using either Virtual WAN or Hub and Spoke networking topology.
-For more details, see the *next steps* section at the end of this document.
+If the business requirements changes over time, such as migration of on-prem applications to Azure that requires hybrid connectivity, the architecture allows you to expand and implement networking without refactoring Azure Design with no disruption to what is already in Azure. The Space-Enterprise-Scale architecture allows to create the Connectivity Subscription and place it into the platform Management Group and assign Azure Policies or/and deploy the target networking topology using either Virtual WAN or Hub and Spoke networking topology.
 
 ## Pre-requisites
 
@@ -76,7 +73,7 @@ By default, all recommendations are enabled, and you must explicitly disable the
 
 ### From a platform perspective
 
-If you later want to add connectivity to your Enterprise-Scale architecture to support workloads requiring hybrid connectivity, you can:
+If you later want to add connectivity to your Space-Enterprise-Scale architecture to support workloads requiring hybrid connectivity, you can:
 
 1. Create a new child management group called 'Connectivity' in the Platform management group
 2. Move/create new subscription into the Connectivity management group
