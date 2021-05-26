@@ -1,4 +1,4 @@
-# Enterprise-Scale - Space Hellas Reference Implementation
+# Space-Enterprise-Scale - Reference Implementation of Space Hellas
 
 ## Navigation Menu
 
