@@ -29,9 +29,9 @@ _The Space-Enterprise-Scale architecture represents the strategic design path an
 
 ---
 
-Not all enterprises adopt Azure in the same way, so the Space-Enterprise-Scale architecture may vary between customers. Ultimately, the technical considerations and design recommendations of the Enterprise-Scale architecture may lead to different trade-offs based on the customer's scenario. Some variation is expected, but if core recommendations are followed, the resulting target architecture will put the customer on a path to sustainable scale.
+Not all enterprises adopt Azure in the same way, so the Space-Enterprise-Scale architecture may vary between customers. Ultimately, the technical considerations and design recommendations of the Space-Enterprise-Scale architecture may lead to different trade-offs based on the customer's scenario. Some variation is expected, but if core recommendations are followed, the resulting target architecture will put the customer on a path to sustainable scale.
 
-The Space-Enterprise-Scale reference implementations in this repository are intended to support Enterprise-Scale Azure adoption and provides prescriptive guidance based on authoritative design for the Azure platform as a whole.
+The Space-Enterprise-Scale reference implementations in this repository are intended to support Space-Enterprise-Scale Azure adoption and provides prescriptive guidance based on authoritative design for the Azure platform as a whole.
 
 | Key customer landing zone requirement | Space-Enterprise-Scale reference implementations |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -42,13 +42,13 @@ The Space-Enterprise-Scale reference implementations in this repository are inte
 | UI Experience and simplified setup | Yes, Azure portal |
 | All critical services are present and properly configured according to recommend best practices for identity & access management, governance, security, network and logging | Yes, using a multi-subscription design, aligned with Azure platform roadmap |
 | Automation capabilities (IaC/DevOps) | Yes: ARM, Policy, GitHub/Azure DevOps CICD pipeline option included |
-| Provides long-term self-sufficiency | Yes, enterprise-scale architecture -> 1:N landing zones. Approach & architecture prepare the customer for long-term self-sufficiency, the RIs are there to get you started |
-| Enables migration velocity across the organization | Yes, enterprise-scale architecture -> 1:N landing zones, Architecture includes designs for segmentation and separation of duty to empower teams to act within appropriate landing zones |
+| Provides long-term self-sufficiency | Yes, space-enterprise-scale architecture -> 1:N landing zones. Approach & architecture prepare the customer for long-term self-sufficiency, the RIs are there to get you started |
+| Enables migration velocity across the organization | Yes, space-enterprise-scale architecture -> 1:N landing zones, Architecture includes designs for segmentation and separation of duty to empower teams to act within appropriate landing zones |
 | Achieves operational excellence | Yes. Enables autonomy for platform and application teams with a policy driven governance and management |
 
 ## Conditions for success
 
-The success of cloud adoption hinges on cross-discipline cooperation within the organization, since key requisite Space-Enterprise-Scale design decisions are cross cutting, and to be authoritative must involve domain Subject Matter Expertise (SME) and stakeholders within the customer. It is crucial that the organization has defined their [Enterprise-Scale Architecture](./docs/EnterpriseScale-Architecture.md) following the design principles and critical design areas.
+The success of cloud adoption hinges on cross-discipline cooperation within the organization, since key requisite Space-Enterprise-Scale design decisions are cross cutting, and to be authoritative must involve domain Subject Matter Expertise (SME) and stakeholders within the customer. It is crucial that the organization has defined their [Space-Enterprise-Scale Architecture](./docs/EnterpriseScale-Architecture.md) following the design principles and critical design areas.
 
 It is also assumed that readers have a broad understanding of key Azure constructs and services in order to fully contextualize the prescriptive recommendations contained within Space-Enterprise-Scale.
 <!--
