@@ -2,12 +2,12 @@
 
 ## Navigation Menu
 
-* [Enterprise-Scale Landing Zones - User Guide](https://github.com/Azure/Enterprise-Scale/wiki#enterprise-scale-landing-zones-user-guide)
-* [Enterprise-Scale Architecture](./docs/EnterpriseScale-Architecture.md)
+* [Space-Enterprise-Scale Landing Zones - User Guide](https://github.com/Azure/Enterprise-Scale/wiki#enterprise-scale-landing-zones-user-guide)
+* [Space-Enterprise-Scale Architecture](./docs/EnterpriseScale-Architecture.md)
 * [Configure Azure permission for ARM Template deployments](./docs/EnterpriseScale-Setup-azure.md)
 * [Deploy Reference Implementation](./docs/EnterpriseScale-Deploy-reference-implentations.md)
-  * [Enterprise-Scale Foundation - Scope and Design](./docs/reference/wingtip/README.md)
-  * [Enterprise-Scale for Small Enterprises - Scope and Design](./docs/reference/treyresearch/README.md)
+  * [Space-Enterprise-Scale Foundation - Scope and Design](./docs/reference/wingtip/README.md)
+  * [Space-Enterprise-Scale for Small Enterprises - Scope and Design](./docs/reference/treyresearch/README.md)
 * [Create Landing Zones](./docs/EnterpriseScale-Deploy-landing-zones.md)
 * [Deploy workloads into Landing Zones](./docs/EnterpriseScale-Deploy-workloads.md)
 * [Getting started with Infrastructure-as-Code](https://github.com/Azure/AzOps-Accelerator/wiki)
